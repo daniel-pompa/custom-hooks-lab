@@ -1,5 +1,6 @@
 import { renderHook, waitFor } from '@testing-library/react';
-import { useFetch } from '../use-fetch/useFetch';
+import { useFetch } from '../hooks';
+
 
 describe('useFetch Hook', () => {
   // Define URLs for testing single and multiple quotes
